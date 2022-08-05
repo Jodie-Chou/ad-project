@@ -7,7 +7,7 @@ export default class App extends Component {
 			<div style={{color: 'red'}}>
 				React Apps
 				<div className="box">
-					<span>哈哈</span>
+					<span>哈哈dev分支</span>
 				</div>
 			</div>
 		)
