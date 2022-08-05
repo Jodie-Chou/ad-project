@@ -2,11 +2,17 @@
 	"env": {
 		"browser": true
 	},
+	"parser": "@typescript-eslint/parser",
+	"plugins": [
+		"react",
+		"@typescript-eslint"
+	],
 	"extends": [
 		"airbnb"
 	],
 	"rules": {
 		"react/prefer-stateless-function": "off",
-		"semi": "off"
+		"semi": "off",
+		"import/no-extraneous-dependencies": "off"
 	}
 }

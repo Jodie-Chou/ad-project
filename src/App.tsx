@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import './app.scss'
 
-export default class App extends Component {
+interface Props {}
+export default class App extends Component<Props> {
   render() {
     return (
       <div style={{ color: 'red' }}>
